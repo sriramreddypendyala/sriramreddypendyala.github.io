@@ -1,0 +1,20 @@
+.title{
+        
+    color: #212F3C ;
+}
+.card {
+    box-shadow: 0 4 px 8 px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+}
+.image{
+    position: relative;
+
+    overflow: hidden;
+}
+.image img{
+    transition: 0.3 s ease-in-out
+}
+.image:hover img{
+    transform: scale(1.2) ;
+}
