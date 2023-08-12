@@ -15,19 +15,23 @@
         margin: auto;
         text-align: center;
     }
-    .img{
-        transition: width 2s, height 2s, transform 2s
+    .image{
+        /* transition: width 2s, height 2s, transform 2s ; */
+        transition: 0.3s ease-in-out
     }
-    img:hover{
-        width=450px;
-        height= 500px
+    image:hover{
+        /* width=450px;
+        height= 500px */
+        transform: rotateX(-15 deg) ;
     }
 </style>
 </head>
 <body>
     <div class="card">
         <H1>USER CARD</H1>
+        <div class="image">
         <img src="https://igimages.gumlet.io/telugu/home/mahesh-babu-050222-5.jpg?w=376&dpr=2.6" width:50% height="400px" height="400px" >
+        </div>
         <p class="title"><h1>Mahesh babu</h1></p>
         <p ><h4>Actor</h4></p>
 </body>
